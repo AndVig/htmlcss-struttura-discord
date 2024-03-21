@@ -11,6 +11,7 @@ header{
 .container{
     max-width: 900px;
     margin: 30px auto;
+
 }
 .container-full {
     max-width: 100%;
@@ -18,6 +19,9 @@ header{
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+.w600{
+    width: 600px;
 }
 .tleft{
     text-align: left;
@@ -31,8 +35,17 @@ header{
 .height-50 {
     height: 50px;
 }
+.height-200{
+    height: 200px;
+}
+.height-500{
+    height: 500px;
+}
 .col-100 {
     width: 100%;
+}
+.col-66 {
+    width: calc(100% * 2/3);
 }
 .col-50 {
     width: 50%;
@@ -50,7 +63,9 @@ header{
     border: 5px dashed black;
    
 }
-
+.green{
+    background-color: green;
+}
 .gold{
     background-color: gold;
 }
