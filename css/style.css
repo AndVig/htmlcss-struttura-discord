@@ -8,9 +8,18 @@ header{
     margin-bottom: 30px;
     padding: 10px ;
 }
+footer{
+    background-color: grey;
+}
+.top-footer{
+
+}
+.bot-footer{
+    
+}
 .container{
     max-width: 900px;
-    margin: 30px auto;
+    margin: 0 auto;
 
 }
 .top-footer{
@@ -33,6 +42,9 @@ header{
 .py-50{
     padding: 50px 0;
 }
+.py-10{
+    padding: 10px;
+}
 .w600{
     width: 600px;
 }
@@ -44,6 +56,12 @@ header{
 }
 .tcenter{
     text-align: center;
+}
+.u-list{
+    list-style-type: none;
+}
+.u-list li{
+    display: inline-block;
 }
 .height-50 {
     height: 50px;
