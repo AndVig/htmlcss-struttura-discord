@@ -13,12 +13,25 @@ header{
     margin: 30px auto;
 
 }
+.top-footer{
+    padding: 5px 0px 10px 0px;
+}
+.bg{
+    padding: 50px;
+}
 .container-full {
     max-width: 100%;
 }
+.container-sm{
+    max-width: 600px;
+    margin: 0 auto;
+}
 .row {
     display: flex;
-    flex-wrap: wrap;
+
+}
+.py-50{
+    padding: 50px 0;
 }
 .w600{
     width: 600px;
@@ -41,8 +54,12 @@ header{
 .height-500{
     height: 500px;
 }
+.height-900{
+    height: 900px;
+}
 .col-100 {
     width: 100%;
+    height: 250px;
 }
 .col-66 {
     width: calc(100% * 2/3);
@@ -51,12 +68,18 @@ header{
     width: 50%;
     padding: 10px;
 }
+.col-34{
+    width: calc(100% /6);
+}
 .col-33 {
     width: calc(100% / 3);
 }
 .col-25 {
     width: 25%;
     padding: 10px;
+}
+.col-17{
+
 }
 
 .dborder{
@@ -77,4 +100,10 @@ header{
 }
 .pink{
     background-color: pink;
+}
+.violet{
+    background-color: darkorchid
+}
+.grey{
+    background-color: lightgrey;
 }
